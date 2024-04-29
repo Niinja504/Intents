@@ -11,6 +11,7 @@
         android:id="@+id/btn_ingresar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#12AF00"
         android:text="Ingresar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

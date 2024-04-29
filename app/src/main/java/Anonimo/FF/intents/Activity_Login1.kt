@@ -1,5 +1,6 @@
 package Anonimo.FF.intents
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
@@ -23,5 +24,14 @@ class Activity_Login1 : AppCompatActivity() {
         val txtCorreo = findViewById<EditText>(R.id.txt_Correo)
         val txtContrasena = findViewById<EditText>(R.id.txt_Contrasena)
         val btnIngresar = findViewById<Button>(R.id.btn_ingresar)
+
+        // 2- Programar el boton
+
+        btnIngresar.setOnClickListener {
+            //Navegaciòn entre pantallas
+            val pantallaMenu = Intent(this, MainActivity::class.java)
+            startActivity(pantallaMenu)
+
+        }
     }
 }

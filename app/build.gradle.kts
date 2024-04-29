@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "Anonimo.FF.intents"
-    compileSdk = 34
+    compileSdk = 34            
 
     defaultConfig {
         applicationId = "Anonimo.FF.intents"
